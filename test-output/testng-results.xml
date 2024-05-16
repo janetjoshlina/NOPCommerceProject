@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="28" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-16T19:44:20 MYT" name="Suite" finished-at="2024-05-16T19:45:41 MYT" duration-ms="80866">
+    <groups>
+    </groups>
+    <test started-at="2024-05-16T19:44:20 MYT" name="Test" finished-at="2024-05-16T19:45:41 MYT" duration-ms="80866">
+      <class name="testcases.TC007_AddNewAddress">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC007_AddNewAddress@97e93f1]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC007_AddNewAddress@97e93f1]" started-at="2024-05-16T19:45:21 MYT" name="startTest" finished-at="2024-05-16T19:45:21 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC007_AddNewAddress@97e93f1]" started-at="2024-05-16T19:45:22 MYT" name="preCondition" finished-at="2024-05-16T19:45:24 MYT" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC007_AddNewAddress@97e93f1]" started-at="2024-05-16T19:45:24 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:30 MYT" duration-ms="6101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Janet]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Joshlina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[133]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600097]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8787876567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC007_AddNewAddress@97e93f1]" started-at="2024-05-16T19:45:30 MYT" name="postCondition" finished-at="2024-05-16T19:45:30 MYT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC007_AddNewAddress -->
+      <class name="testcases.TC005_VerifyOrderDetails">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC005_VerifyOrderDetails@491b9b8]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC005_VerifyOrderDetails@491b9b8]" started-at="2024-05-16T19:45:10 MYT" name="startTest" finished-at="2024-05-16T19:45:10 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC005_VerifyOrderDetails@491b9b8]" started-at="2024-05-16T19:45:10 MYT" name="preCondition" finished-at="2024-05-16T19:45:12 MYT" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC005_VerifyOrderDetails@491b9b8]" started-at="2024-05-16T19:45:12 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:16 MYT" duration-ms="3836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC005_VerifyOrderDetails@491b9b8]" started-at="2024-05-16T19:45:16 MYT" name="postCondition" finished-at="2024-05-16T19:45:16 MYT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC005_VerifyOrderDetails -->
+      <class name="testcases.TC003_ProductAdd">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC003_ProductAdd@50378a4]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC003_ProductAdd@50378a4]" started-at="2024-05-16T19:44:36 MYT" name="startTest" finished-at="2024-05-16T19:44:36 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC003_ProductAdd@50378a4]" started-at="2024-05-16T19:44:36 MYT" name="preCondition" finished-at="2024-05-16T19:44:37 MYT" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC003_ProductAdd@50378a4]" started-at="2024-05-16T19:44:37 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:44:42 MYT" duration-ms="5162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nikon D5500 DSLR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nikon D5500 DSLR - Black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC003_ProductAdd@50378a4]" started-at="2024-05-16T19:44:42 MYT" name="postCondition" finished-at="2024-05-16T19:44:43 MYT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC003_ProductAdd -->
+      <class name="testcases.TC006_ProductPresentOrNot">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC006_ProductPresentOrNot@1a4927d6]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC006_ProductPresentOrNot@1a4927d6]" started-at="2024-05-16T19:45:16 MYT" name="startTest" finished-at="2024-05-16T19:45:16 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC006_ProductPresentOrNot@1a4927d6]" started-at="2024-05-16T19:45:16 MYT" name="preCondition" finished-at="2024-05-16T19:45:18 MYT" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC006_ProductPresentOrNot@1a4927d6]" started-at="2024-05-16T19:45:18 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:21 MYT" duration-ms="3493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HP Spectre XT Pro UltraBook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HP Spectre XT Pro UltraBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC006_ProductPresentOrNot@1a4927d6]" started-at="2024-05-16T19:45:21 MYT" name="postCondition" finished-at="2024-05-16T19:45:21 MYT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC006_ProductPresentOrNot -->
+      <class name="testcases.TC004_PlacingOrder">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC004_PlacingOrder@60f00693]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC004_PlacingOrder@60f00693]" started-at="2024-05-16T19:44:43 MYT" name="startTest" finished-at="2024-05-16T19:44:43 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC004_PlacingOrder@60f00693]" started-at="2024-05-16T19:44:43 MYT" name="preCondition" finished-at="2024-05-16T19:44:45 MYT" duration-ms="2231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_PlacingOrder@60f00693]" started-at="2024-05-16T19:44:45 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:01 MYT" duration-ms="15738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nikon D5500 DSLR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nikon D5500 DSLR - Black]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[133]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[address]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600097]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[7865786545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC004_PlacingOrder@60f00693]" started-at="2024-05-16T19:45:01 MYT" name="postCondition" finished-at="2024-05-16T19:45:01 MYT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC004_PlacingOrder -->
+      <class name="testcases.TC001_Registration">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:20 MYT" name="startReport" finished-at="2024-05-16T19:44:20 MYT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:20 MYT" name="startTest" finished-at="2024-05-16T19:44:20 MYT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:21 MYT" name="preCondition" finished-at="2024-05-16T19:44:24 MYT" duration-ms="2945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:24 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:44:31 MYT" duration-ms="7678" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joshlina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cognizant]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Your registration completed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='result']"}
+  (Session info: chrome=124.0.6367.208)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-35OE4P0O', ip: '192.168.0.111', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\JANETJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8511e775d639582faa4b286fa3c614e
+*** Element info: {Using=xpath, value=//div[@class='result']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='result']"}
+  (Session info: chrome=124.0.6367.208)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-35OE4P0O', ip: '192.168.0.111', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\JANETJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8511e775d639582faa4b286fa3c614e
+*** Element info: {Using=xpath, value=//div[@class='result']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Seleniumapi.SeleniumBase.verifyExactText(SeleniumBase.java:40)
+at pages.AccountPage.validateRegistration(AccountPage.java:22)
+at testcases.TC001_Registration.run(TC001_Registration.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:44:31 MYT" name="postCondition" finished-at="2024-05-16T19:44:32 MYT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="endResult()[pri:0, instance:testcases.TC001_Registration@dc7df28]" started-at="2024-05-16T19:45:41 MYT" name="endResult" finished-at="2024-05-16T19:45:41 MYT" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- testcases.TC001_Registration -->
+      <class name="testcases.TC004_PlacingOrderDetailsDelete">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC004_PlacingOrderDetailsDelete@79207381]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC004_PlacingOrderDetailsDelete@79207381]" started-at="2024-05-16T19:45:01 MYT" name="startTest" finished-at="2024-05-16T19:45:01 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC004_PlacingOrderDetailsDelete@79207381]" started-at="2024-05-16T19:45:01 MYT" name="preCondition" finished-at="2024-05-16T19:45:04 MYT" duration-ms="2288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC004_PlacingOrderDetailsDelete@79207381]" started-at="2024-05-16T19:45:04 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:10 MYT" duration-ms="6243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nikon D5500 DSLR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nikon D5500 DSLR - Black]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC004_PlacingOrderDetailsDelete@79207381]" started-at="2024-05-16T19:45:10 MYT" name="postCondition" finished-at="2024-05-16T19:45:10 MYT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC004_PlacingOrderDetailsDelete -->
+      <class name="testcases.TC002_UserLogin">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC002_UserLogin@5884a914]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC002_UserLogin@5884a914]" started-at="2024-05-16T19:44:32 MYT" name="startTest" finished-at="2024-05-16T19:44:32 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC002_UserLogin@5884a914]" started-at="2024-05-16T19:44:32 MYT" name="preCondition" finished-at="2024-05-16T19:44:34 MYT" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC002_UserLogin@5884a914]" started-at="2024-05-16T19:44:34 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:44:35 MYT" duration-ms="1892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC002_UserLogin@5884a914]" started-at="2024-05-16T19:44:35 MYT" name="postCondition" finished-at="2024-05-16T19:44:36 MYT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC002_UserLogin -->
+      <class name="testcases.TC008_ListProductInConsole">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC008_ListProductInConsole@5a5a729f]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC008_ListProductInConsole@5a5a729f]" started-at="2024-05-16T19:45:30 MYT" name="startTest" finished-at="2024-05-16T19:45:30 MYT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC008_ListProductInConsole@5a5a729f]" started-at="2024-05-16T19:45:30 MYT" name="preCondition" finished-at="2024-05-16T19:45:33 MYT" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC008_ListProductInConsole@5a5a729f]" started-at="2024-05-16T19:45:33 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:35 MYT" duration-ms="2536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC008_ListProductInConsole@5a5a729f]" started-at="2024-05-16T19:45:35 MYT" name="postCondition" finished-at="2024-05-16T19:45:35 MYT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC008_ListProductInConsole -->
+      <class name="testcases.TC009_Screenshot">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:testcases.TC009_Screenshot@4b520ea8]" started-at="2024-05-16T19:44:20 MYT" name="setValues" finished-at="2024-05-16T19:44:20 MYT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="startTest()[pri:0, instance:testcases.TC009_Screenshot@4b520ea8]" started-at="2024-05-16T19:45:35 MYT" name="startTest" finished-at="2024-05-16T19:45:35 MYT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:testcases.TC009_Screenshot@4b520ea8]" started-at="2024-05-16T19:45:35 MYT" name="preCondition" finished-at="2024-05-16T19:45:37 MYT" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC009_Screenshot@4b520ea8]" started-at="2024-05-16T19:45:37 MYT" name="run" data-provider="provideData" finished-at="2024-05-16T19:45:40 MYT" duration-ms="3720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[janetjoshlinaj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jan@04]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Elegant Gemstone Necklace (rental)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.TC009_Screenshot@4b520ea8]" started-at="2024-05-16T19:45:40 MYT" name="postCondition" finished-at="2024-05-16T19:45:41 MYT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.TC009_Screenshot -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
