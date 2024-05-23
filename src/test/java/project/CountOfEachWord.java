@@ -21,6 +21,7 @@ public class CountOfEachWord {
 			
 		}
 		System.out.println(mp);
+		System.out.println("Janet is making this changes");
 		
 		
 	}
