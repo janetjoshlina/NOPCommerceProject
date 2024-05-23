@@ -20,6 +20,7 @@ public class CountOfEachCharacter {
 			}
 		}
 		System.out.println(mp);
+		System.out.println("adding new line of code");
 	}
 
 }
