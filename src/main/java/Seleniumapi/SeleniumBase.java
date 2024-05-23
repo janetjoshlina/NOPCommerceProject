@@ -23,7 +23,6 @@ import com.aventstack.extentreports.Status;
 
 import base.ProjectSpecificMethods;
 import design.Element;
-import utils.Reporter;
 import utils.Reporter1;
 
 public class SeleniumBase extends Reporter1 implements Element {
