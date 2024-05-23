@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import Seleniumapi.SeleniumBase;
 import base.ProjectSpecificMethods;
 
-public class RegistrationPage extends SeleniumBase {
+public class RegistrationPage extends ProjectSpecificMethods {
 
 	public RegistrationPage selectGender() throws IOException {
 		click(readFromXpath("SelectGender"));

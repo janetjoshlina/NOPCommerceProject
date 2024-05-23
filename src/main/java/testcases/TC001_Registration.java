@@ -15,7 +15,10 @@ public class TC001_Registration extends ProjectSpecificMethods {
 
 	@BeforeTest
 	public void setValues() {
-		
+//		name = "TC001_UserLogin";
+//		desc = "login";
+//		author = "Janet Joshlina";
+		category = "Functional";
 		excelFileName = "NOPCommerce";
 		excelSheetName = "TC001_Registration";
 	}

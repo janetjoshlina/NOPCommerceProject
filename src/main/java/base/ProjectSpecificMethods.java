@@ -17,13 +17,14 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import Seleniumapi.SeleniumBase;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ReadExcel;
 
 
-public class ProjectSpecificMethods {
+public class ProjectSpecificMethods extends SeleniumBase {
 	
-	public static ChromeDriver driver;
+	
 	public static Properties prop;
 	
 	public String excelFileName;
@@ -50,40 +51,14 @@ public class ProjectSpecificMethods {
 	@BeforeMethod
 	public void preCondition()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Janet Joshlina\\eclipse-workspace\\project\\driver\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://demo.nopcommerce.com/");
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
+		startApp();
 	}
 	
 	@AfterMethod
 	public void postCondition()
 	{
-		driver.close();
-	}
-	
-	public static final ExtentReports extentReports = new ExtentReports();
-	public static final ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(
-			"C:/Users/Janet Joshlina/eclipse-workspace/project/reports/AllTest.html");
-
-	@BeforeSuite
-	public void startReport() {
-		extentReports.attachReporter(htmlReporter);
-	}
-
-	@BeforeClass
-	public static ExtentTest startTest() {
-		ExtentTest test = extentReports.createTest("ExtDemo");
-		test.assignAuthor("JanetJoshlina");
-		test.assignCategory("Functional");
-		return test;
-	}
-
-	@AfterSuite(alwaysRun = true)
-	public void endResult() {
-		extentReports.flush();
+		closeApp();
 	}
 
 }

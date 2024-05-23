@@ -14,21 +14,19 @@ import Seleniumapi.SeleniumBase;
 import base.ProjectSpecificMethods;
 import testcases.TC002_UserLogin;
 
-public class HomePage extends SeleniumBase {
+public class HomePage extends ProjectSpecificMethods {
 	
-	ExtentTest tc = ProjectSpecificMethods.startTest();
 	
 	public LoginPage clickLogin() throws IOException
 	{
 		click(readFromXpath("ClickLogin"));
-		tc.log(Status.PASS, "Login successfull");
+		reportStep("click login", "pass");
 		return new LoginPage();
 	}
 	
 	public RegistrationPage clickRegister() throws IOException
 	{
 		click(readFromXpath("ClickRegister"));
-		tc.log(Status.PASS, "Clicking Register Button successfull");
 		return new RegistrationPage();
 	}
 

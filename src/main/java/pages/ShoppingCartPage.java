@@ -7,7 +7,7 @@ import org.testng.Assert;
 import Seleniumapi.SeleniumBase;
 import base.ProjectSpecificMethods;
 
-public class ShoppingCartPage extends SeleniumBase {
+public class ShoppingCartPage extends ProjectSpecificMethods {
 
 	public ShoppingCartPage verifyCartProductDetails(String productName) throws IOException {
 		boolean display = verifyExactText(readFromXpath("VerifyCartProductDetails"), productName);
