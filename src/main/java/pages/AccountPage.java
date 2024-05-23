@@ -13,15 +13,12 @@ import com.aventstack.extentreports.Status;
 import Seleniumapi.SeleniumBase;
 import base.ProjectSpecificMethods;
 
-public class AccountPage extends SeleniumBase{
+public class AccountPage extends ProjectSpecificMethods{
 	
-	ExtentTest tc = ProjectSpecificMethods.startTest();
 
 	public AccountPage validateRegistration(String actualText) throws IOException {
-		tc.info("Validating Registration");
 		boolean displayed = verifyExactText(readFromXpath("VerifyText"), actualText);
 		Assert.assertTrue(displayed);
-		tc.log(Status.PASS,"Registration validated successfully").addScreenCaptureFromPath("./Screenshot]/test.png");
 		return this;
 	}
 

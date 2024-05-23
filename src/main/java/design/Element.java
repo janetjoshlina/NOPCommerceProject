@@ -8,6 +8,9 @@ public interface Element {
 	void enterText(String value, String data);
 	void selectDropDownUsingValue(String ele, String value) ;
 	boolean verifyExactText(String ele, String expectedText);
+	public void startApp();
+	public void closeApp();
+	long takeSnap();
 	
 
 }

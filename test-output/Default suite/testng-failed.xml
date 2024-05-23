@@ -6,8 +6,11 @@
       <class name="testcases.TC002_UserLogin">
         <methods>
           <include name="run" invocation-numbers="0"/>
+          <include name="endResult"/>
           <include name="postCondition"/>
+          <include name="startReport"/>
           <include name="preCondition"/>
+          <include name="startTestCase"/>
           <include name="setValues"/>
         </methods>
       </class> <!-- testcases.TC002_UserLogin -->

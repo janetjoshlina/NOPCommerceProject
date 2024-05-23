@@ -7,7 +7,7 @@ import org.testng.Assert;
 import Seleniumapi.SeleniumBase;
 import base.ProjectSpecificMethods;
 
-public class MyAccountPage extends SeleniumBase{
+public class MyAccountPage extends ProjectSpecificMethods{
 	
 	public MyAccountPage clickOrders() throws IOException {
 		click(readFromXpath("ClickOrder"));
