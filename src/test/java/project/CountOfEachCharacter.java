@@ -22,6 +22,7 @@ public class CountOfEachCharacter {
 		System.out.println(mp);
 		System.out.println("adding new line of code");
 		System.out.println("adding one more line");
+		System.out.println("adding through eclipse");
 	}
 
 }
