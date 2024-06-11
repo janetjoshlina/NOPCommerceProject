@@ -19,7 +19,7 @@ public class ArrayReversal {
 		ls.clear();
 		ls.addAll(sc);
 		for (int i = ls.size()-1; i >=0; i--) {
-			System.out.println(ls.get(i)+ " data");
+			System.out.println(ls.get(i)+ " data library");
 		}
 	}
 
